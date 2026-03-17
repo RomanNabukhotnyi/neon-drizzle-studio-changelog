@@ -2,6 +2,11 @@
 
 This changelog documents updates and fixes for the Drizzle Studio integration that powers the **Tables** page in the Neon Console.
 
+## 1.4.1
+
+- Fixed policies dropping in the table structure.
+- Fixed escaping in privileges.
+
 ## 1.4.0
 
 - Reworked pagination.
