@@ -2,6 +2,20 @@
 
 This changelog documents updates and fixes for the Drizzle Studio integration that powers the **Tables** page in the Neon Console.
 
+## 1.4.0
+
+- Reworked pagination.
+- Added column reordering.
+- Added a separate component for sorting (not only via column header clicks).
+- Added right-click support on selected cells for copy/paste.
+- Added dynamic naming for subviews if they are not explicitly renamed.
+- Added filter value validation.
+- Improved performance.
+- Improved boolean value editor.
+- Fixed escaping of names in role alternations.
+- Added `entityFilter` prop.
+- Fixed insertion of `integer[]` values.
+
 ## 1.3.2
 
 - Fixed regression in validation caused by zod upgrade.
