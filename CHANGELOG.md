@@ -2,6 +2,15 @@
 
 This changelog documents updates and fixes for the Drizzle Studio integration that powers the **Tables** page in the Neon Console.
 
+## 1.5.0
+
+- Added the ability to copy rows to the clipboard in addition to exporting.
+- Added drag-and-drop support for column ordering.
+- Added enum values to the filters.
+- Fixed DDL export.
+- Fixed partitioned indexes regression.
+- Improved performance.
+
 ## 1.4.3
 
 - Fixed schema introspection failing for non-admin users.
