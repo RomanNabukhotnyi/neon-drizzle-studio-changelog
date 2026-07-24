@@ -2,6 +2,18 @@
 
 This changelog documents updates and fixes for the Drizzle Studio integration that powers the **Tables** page in the Neon Console.
 
+## 1.5.1
+
+- Added the ability to sort by multiple columns.
+- Added `Cmd/Ctrl + A` shortcut for selecting all rows.
+- Added `Option/Alt + N` shortcut for adding a new row.
+- Added `Option/Alt + F` shortcut for filtering rows.
+- Added the ability to copy table creation statements to the clipboard.
+- Added the ability to export and copy rows in SQL format (insert statements).
+- Reworked header cell sorting functionality.
+- Reworked refresh shortcuts: `Cmd/Ctrl + R` refreshes rows, while `Shift + Cmd/Ctrl + R` refreshes schema and rows.
+- Restricted the scope of event and keyboard listeners.
+
 ## 1.5.0
 
 - Added the ability to copy rows to the clipboard in addition to exporting.
